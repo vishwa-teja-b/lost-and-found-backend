@@ -33,3 +33,6 @@ build/
 .vscode/
 # Ignore Firebase Admin SDK private key
 src/main/resources/serviceAccountKey.json
+
+# Secrets - DO NOT COMMIT
+application.properties

@@ -1,0 +1,26 @@
+spring.application.name=lostandfound
+server.port = 8081
+
+#MYSQL DATABASE CONNECTION SETTINGS
+
+# Add placeholders for any other secrets you might have (e.g., database)
+# spring.datasource.url=YOUR_DATABASE_URL
+# spring.datasource.username=YOUR_DATABASE_USERNAME
+# spring.datasource.password=YOUR_DATABASE_PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+#Hibernate / JPA configs
+#This strategy automatically updates the database schema based on your entites.
+spring.jpa.hibernate.ddl-auto=update
+
+#Show SQL statements in the console for debugging
+spring.jpa.show-sql = true
+
+# src/main/resources/application.properties.example
+# This is a template file. Copy this to application.properties and fill in your own keys.
+
+# Cloudinary Configuration
+cloudinary.cloud_name=YOUR_CLOUD_NAME_HERE
+cloudinary.api_key=YOUR_API_KEY_HERE
+cloudinary.api_secret=YOUR_API_SECRET_HERE
+
